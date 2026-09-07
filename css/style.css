@@ -5,7 +5,7 @@ a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:aut
 header{background:var(--black);position:sticky;top:0;z-index:10;border-bottom:1px solid #222}.nav{min-height:92px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{width:min(430px,48vw);display:block}.nav-links{display:flex;gap:26px;align-items:center}.nav-links a{color:white;font-size:.9rem;font-weight:700;letter-spacing:.06em}.nav-links a:hover{color:var(--gold)}
 .menu{display:none;background:none;border:0;color:white;font-size:1.7rem}
-.hero{background:var(--black);color:white;text-align:center;padding:92px 20px 105px}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:.8rem}
+.hero{background:linear-gradient(rgba(0,0,0,.58),rgba(0,0,0,.68)),url('../images/hero-podcast-mic.png') center center/cover no-repeat;color:white;text-align:center;padding:92px 20px 105px}.eyebrow{color:var(--gold);font-weight:800;letter-spacing:.18em;text-transform:uppercase;font-size:.8rem}
 .hero h1{font-size:clamp(2.7rem,7vw,5.5rem);line-height:.98;margin:18px auto;max-width:1000px;text-transform:uppercase}.hero p{max-width:760px;margin:20px auto 32px;color:#d7d7d7;font-size:1.15rem}
 .btn{display:inline-block;background:var(--blue);color:white;padding:14px 24px;font-weight:800;text-transform:uppercase;letter-spacing:.06em;border-radius:3px}.btn:hover{background:var(--gold);color:#111}
 .section{padding:80px 0}.section h2{font-size:clamp(2rem,4vw,3.2rem);margin:0 0 10px;text-transform:uppercase}.intro{max-width:720px;color:#666;margin-bottom:38px}
