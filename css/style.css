@@ -61,3 +61,13 @@ img{max-width:100%;height:auto}
 /* Founding Speaker profile badge */
 .founding-speaker-badge{margin:0 0 24px;text-align:center}.founding-speaker-badge img{display:block;width:200px;max-width:100%;height:auto;margin:0 auto;border-radius:50%;box-shadow:0 8px 24px rgba(0,0,0,.24)}
 @media(max-width:700px){.founding-speaker-badge img{width:180px}}
+
+
+/* Homepage scrolling banner, matching the Lead Empowered TV visual treatment */
+.home-ticker{background:#2b6b99;color:#fff;overflow:hidden;padding:20px 0;white-space:nowrap}
+.home-ticker-track{display:flex;width:max-content;animation:home-ticker-scroll 38s linear infinite}
+.home-ticker-set{display:flex;flex:none;align-items:center;gap:32px;padding-right:32px;font-size:1.02rem;font-weight:800;letter-spacing:.09em}
+.home-ticker .ticker-star{color:#f0cf55;font-size:1.2rem}
+@keyframes home-ticker-scroll{to{transform:translateX(-50%)}}
+@media(max-width:600px){.home-ticker{padding:16px 0}.home-ticker-set{gap:22px;padding-right:22px;font-size:.86rem;letter-spacing:.06em}}
+@media(prefers-reduced-motion:reduce){.home-ticker-track{animation:none}.home-ticker{overflow-x:auto}}
