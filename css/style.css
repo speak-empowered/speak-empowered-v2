@@ -65,7 +65,8 @@ img{max-width:100%;height:auto}
 
 /* Refined boutique-brand scrolling banner */
 .home-ticker{background:#111111;color:#f5f1e8;overflow:hidden;padding:15px 0;white-space:nowrap;border-top:1px solid rgba(200,173,101,.45);border-bottom:1px solid rgba(200,173,101,.45)}
-.home-ticker-track{display:flex;width:max-content;animation:home-ticker-scroll 48s linear infinite}
+.home-ticker-track{display:flex;width:max-content}
+.home-ticker.is-ready .home-ticker-track{animation:home-ticker-scroll 48s linear infinite}
 .home-ticker-set{display:flex;flex:none;align-items:center;gap:34px;padding-right:34px;font-size:.87rem;font-weight:700;letter-spacing:.14em}
 .home-ticker .ticker-star{color:#c8ad65;font-size:1rem}
 @keyframes home-ticker-scroll{to{transform:translateX(-50%)}}
