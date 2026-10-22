@@ -63,11 +63,11 @@ img{max-width:100%;height:auto}
 @media(max-width:700px){.founding-speaker-badge img{width:180px}}
 
 
-/* Homepage scrolling banner, matching the Lead Empowered TV visual treatment */
-.home-ticker{background:#2b6b99;color:#fff;overflow:hidden;padding:20px 0;white-space:nowrap}
-.home-ticker-track{display:flex;width:max-content;animation:home-ticker-scroll 38s linear infinite}
-.home-ticker-set{display:flex;flex:none;align-items:center;gap:32px;padding-right:32px;font-size:1.02rem;font-weight:800;letter-spacing:.09em}
-.home-ticker .ticker-star{color:#f0cf55;font-size:1.2rem}
+/* Refined boutique-brand scrolling banner */
+.home-ticker{background:#111111;color:#f5f1e8;overflow:hidden;padding:15px 0;white-space:nowrap;border-top:1px solid rgba(200,173,101,.45);border-bottom:1px solid rgba(200,173,101,.45)}
+.home-ticker-track{display:flex;width:max-content;animation:home-ticker-scroll 48s linear infinite}
+.home-ticker-set{display:flex;flex:none;align-items:center;gap:34px;padding-right:34px;font-size:.87rem;font-weight:700;letter-spacing:.14em}
+.home-ticker .ticker-star{color:#c8ad65;font-size:1rem}
 @keyframes home-ticker-scroll{to{transform:translateX(-50%)}}
-@media(max-width:600px){.home-ticker{padding:16px 0}.home-ticker-set{gap:22px;padding-right:22px;font-size:.86rem;letter-spacing:.06em}}
+@media(max-width:600px){.home-ticker{padding:13px 0}.home-ticker-set{gap:24px;padding-right:24px;font-size:.74rem;letter-spacing:.1em}}
 @media(prefers-reduced-motion:reduce){.home-ticker-track{animation:none}.home-ticker{overflow-x:auto}}
