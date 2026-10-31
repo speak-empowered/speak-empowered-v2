@@ -74,12 +74,12 @@ img{max-width:100%;height:auto}
 @media(prefers-reduced-motion:reduce){.home-ticker-track{animation:none}.home-ticker{overflow-x:auto}}
 
 
-/* Keep Nathan's three hero calls-to-action together on desktop */
-.profile-grid.nathan-profile-grid{grid-template-columns:minmax(260px,38%) minmax(0,1fr);gap:30px}
-.profile-actions.nathan-actions{flex-wrap:nowrap;gap:8px}
-.profile-actions.nathan-actions .btn{padding:12px 13px;font-size:.76rem;letter-spacing:.025em;white-space:nowrap}
+/* Consistent compact hero buttons across both speaker profiles */
+.profile-grid.compact-profile-grid{grid-template-columns:minmax(260px,38%) minmax(0,1fr);gap:30px}
+.profile-actions.compact-profile-actions{flex-wrap:nowrap;gap:8px}
+.profile-actions.compact-profile-actions .btn{padding:12px 13px;font-size:.76rem;letter-spacing:.025em;white-space:nowrap}
 @media(max-width:850px){
-  .profile-grid.nathan-profile-grid{grid-template-columns:1fr;gap:35px}
-  .profile-actions.nathan-actions{flex-wrap:wrap}
+  .profile-grid.compact-profile-grid{grid-template-columns:1fr;gap:35px}
+  .profile-actions.compact-profile-actions{flex-wrap:wrap}
 }
-@media(max-width:520px){.profile-actions.nathan-actions .btn{white-space:normal}}
+@media(max-width:520px){.profile-actions.compact-profile-actions .btn{white-space:normal}}
