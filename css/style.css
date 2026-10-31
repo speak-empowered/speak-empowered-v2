@@ -72,3 +72,14 @@ img{max-width:100%;height:auto}
 @keyframes home-ticker-scroll{to{transform:translateX(-50%)}}
 @media(max-width:600px){.home-ticker{padding:13px 0}.home-ticker-set{gap:24px;padding-right:24px;font-size:.74rem;letter-spacing:.1em}}
 @media(prefers-reduced-motion:reduce){.home-ticker-track{animation:none}.home-ticker{overflow-x:auto}}
+
+
+/* Keep Nathan's three hero calls-to-action together on desktop */
+.profile-grid.nathan-profile-grid{grid-template-columns:minmax(260px,38%) minmax(0,1fr);gap:30px}
+.profile-actions.nathan-actions{flex-wrap:nowrap;gap:8px}
+.profile-actions.nathan-actions .btn{padding:12px 13px;font-size:.76rem;letter-spacing:.025em;white-space:nowrap}
+@media(max-width:850px){
+  .profile-grid.nathan-profile-grid{grid-template-columns:1fr;gap:35px}
+  .profile-actions.nathan-actions{flex-wrap:wrap}
+}
+@media(max-width:520px){.profile-actions.nathan-actions .btn{white-space:normal}}
