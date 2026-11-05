@@ -85,17 +85,14 @@ img{max-width:100%;height:auto}
 @media(max-width:520px){.profile-actions.compact-profile-actions .btn{white-space:normal}}
 
 
-/* Boutique affiliate feature */
-.affiliate-feature{background:#f4f1e9;padding:54px 0}
-.affiliate-feature-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(210px,270px);align-items:center;gap:36px;background:#111;color:#f5f1e8;padding:38px 44px;border:1px solid rgba(200,173,101,.65)}
-.affiliate-eyebrow{color:#c8ad65;text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800;margin:0 0 12px}
-.affiliate-feature h2{font-size:clamp(1.55rem,3vw,2.25rem);line-height:1.16;margin:0 0 14px;text-transform:uppercase}
-.affiliate-feature-copy>p:not(.affiliate-eyebrow){margin:0 0 14px;color:#e0dcd3;max-width:680px}
-.affiliate-feature-copy .affiliate-fineprint{font-size:.77rem;line-height:1.5;color:#bdb8ae!important;margin-bottom:7px!important}
-.affiliate-brand-link{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:26px 18px;background:#fdfbf7;color:#171717;border:1px solid #c8ad65;min-height:230px;transition:transform .2s ease,box-shadow .2s ease}
-.affiliate-brand-link:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.2)}
-.affiliate-brand-link:focus-visible{outline:3px solid #c8ad65;outline-offset:3px}
-.affiliate-brand-link img{width:96px;height:96px;object-fit:cover;object-position:center;border-radius:20px;background:#fff}
-.affiliate-brand-name{font-size:1.42rem;font-weight:800;letter-spacing:-.03em;color:#191919}
-.affiliate-brand-action{font-size:.78rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;color:#9c2727}
-@media(max-width:760px){.affiliate-feature{padding:38px 0}.affiliate-feature-card{grid-template-columns:1fr;padding:28px 22px;gap:20px}.affiliate-brand-link{min-height:0;padding:22px}}
+/* Strawberry.me partner feature — aligned with Lead Empowered TV */
+.strawberry-partner-section{background:#f6f7f8;padding:48px 0}
+.strawberry-partner-card{display:grid;grid-template-columns:minmax(200px,.85fr) minmax(0,1.6fr);gap:46px;align-items:center;max-width:1100px;margin:auto;padding:42px 48px;border:1px solid #e0e4e8;border-radius:18px;background:#fff;box-shadow:0 10px 32px rgba(15,33,51,.06)}
+.strawberry-partner-logo{display:flex;align-items:center;justify-content:center;padding:24px 12px;border-radius:12px;background:#f7f8f8;min-height:155px}
+.strawberry-partner-logo img{display:block;width:100%;height:auto;max-width:340px;object-fit:contain}
+.strawberry-partner-eyebrow{margin-bottom:12px;color:#2b6b99;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.strawberry-partner-content h2{font-size:clamp(1.55rem,2.5vw,2.3rem);line-height:1.2;margin:0 0 16px;text-transform:none}
+.strawberry-partner-content>p:not(.strawberry-partner-disclaimer){line-height:1.65;margin:0 0 20px}
+.strawberry-partner-cta{background:#2b6b99;color:#fff}
+.strawberry-partner-disclaimer{font-size:.69rem;line-height:1.5;color:#6a727b;margin:16px 0 0}
+@media(max-width:760px){.strawberry-partner-section{padding:28px 0}.strawberry-partner-card{grid-template-columns:1fr;gap:24px;padding:28px 22px}.strawberry-partner-logo{min-height:110px;padding:18px 22px}.strawberry-partner-logo img{max-width:270px}}
