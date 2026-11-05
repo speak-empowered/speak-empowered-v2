@@ -85,14 +85,17 @@ img{max-width:100%;height:auto}
 @media(max-width:520px){.profile-actions.compact-profile-actions .btn{white-space:normal}}
 
 
-/* Strawberry.me partner feature — aligned with Lead Empowered TV */
-.strawberry-partner-section{background:#f6f7f8;padding:48px 0}
-.strawberry-partner-card{display:grid;grid-template-columns:minmax(200px,.85fr) minmax(0,1.6fr);gap:46px;align-items:center;max-width:1100px;margin:auto;padding:42px 48px;border:1px solid #e0e4e8;border-radius:18px;background:#fff;box-shadow:0 10px 32px rgba(15,33,51,.06)}
-.strawberry-partner-logo{display:flex;align-items:center;justify-content:center;padding:24px 12px;border-radius:12px;background:#f7f8f8;min-height:155px}
-.strawberry-partner-logo img{display:block;width:100%;height:auto;max-width:340px;object-fit:contain}
-.strawberry-partner-eyebrow{margin-bottom:12px;color:#2b6b99;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
-.strawberry-partner-content h2{font-size:clamp(1.55rem,2.5vw,2.3rem);line-height:1.2;margin:0 0 16px;text-transform:none}
-.strawberry-partner-content>p:not(.strawberry-partner-disclaimer){line-height:1.65;margin:0 0 20px}
-.strawberry-partner-cta{background:#2b6b99;color:#fff}
-.strawberry-partner-disclaimer{font-size:.69rem;line-height:1.5;color:#6a727b;margin:16px 0 0}
-@media(max-width:760px){.strawberry-partner-section{padding:28px 0}.strawberry-partner-card{grid-template-columns:1fr;gap:24px;padding:28px 22px}.strawberry-partner-logo{min-height:110px;padding:18px 22px}.strawberry-partner-logo img{max-width:270px}}
+/* Strawberry.me affiliate partner feature — matched to Write Empowered */
+.partner-offer{background:linear-gradient(120deg,#070a10 0%,#0c2d57 100%);color:#f4f6fa;padding:54px 0;border-top:1px solid rgba(217,173,84,.5)}
+.partner-offer-inner{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(240px,.75fr);gap:46px;align-items:center}
+.partner-offer-eyebrow{color:#d9ad54;letter-spacing:.15em;font-size:.78rem;font-weight:800;text-transform:uppercase}
+.partner-offer h2{color:#fff;font-size:clamp(28px,3.3vw,43px);margin:12px 0 18px;line-height:1.2;text-transform:none}
+.partner-offer h2 span{color:#d9ad54}
+.partner-offer-copy>p:not(.partner-offer-eyebrow){max-width:670px;line-height:1.65;color:#e1e8f1}
+.partner-offer .partner-offer-disclaimer,.partner-offer .partner-offer-disclosure{font-size:12px;color:#c7d0dc;margin:12px 0 0}
+.partner-offer-logo{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;min-height:180px;padding:25px;border:1px solid rgba(217,173,84,.6);border-radius:10px;background:rgba(255,255,255,.96);text-align:center;text-decoration:none;box-shadow:0 16px 36px rgba(0,0,0,.2);transition:transform .2s ease,box-shadow .2s ease}
+.partner-offer-logo:hover,.partner-offer-logo:focus-visible{transform:translateY(-3px);box-shadow:0 20px 44px rgba(0,0,0,.32)}
+.partner-offer-logo img{display:block;max-width:100%;width:270px;height:auto;max-height:115px;object-fit:contain}
+.partner-offer-logo>span{color:#0c2d57;font-size:14px;font-weight:700}
+@media(max-width:760px){.partner-offer{padding:40px 0}.partner-offer-inner{grid-template-columns:1fr;gap:24px}.partner-offer-logo{min-height:155px}}
+@media(prefers-reduced-motion:reduce){.partner-offer-logo{transition:none}}
