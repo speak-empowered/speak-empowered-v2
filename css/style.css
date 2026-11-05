@@ -85,17 +85,22 @@ img{max-width:100%;height:auto}
 @media(max-width:520px){.profile-actions.compact-profile-actions .btn{white-space:normal}}
 
 
-/* Strawberry.me affiliate partner feature — matched to Write Empowered */
-.partner-offer{background:linear-gradient(120deg,#070a10 0%,#0c2d57 100%);color:#f4f6fa;padding:54px 0;border-top:1px solid rgba(217,173,84,.5)}
-.partner-offer-inner{display:grid;grid-template-columns:minmax(0,1.45fr) minmax(240px,.75fr);gap:46px;align-items:center}
-.partner-offer-eyebrow{color:#d9ad54;letter-spacing:.15em;font-size:.78rem;font-weight:800;text-transform:uppercase}
-.partner-offer h2{color:#fff;font-size:clamp(28px,3.3vw,43px);margin:12px 0 18px;line-height:1.2;text-transform:none}
-.partner-offer h2 span{color:#d9ad54}
-.partner-offer-copy>p:not(.partner-offer-eyebrow){max-width:670px;line-height:1.65;color:#e1e8f1}
-.partner-offer .partner-offer-disclaimer,.partner-offer .partner-offer-disclosure{font-size:12px;color:#c7d0dc;margin:12px 0 0}
-.partner-offer-logo{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:15px;min-height:180px;padding:25px;border:1px solid rgba(217,173,84,.6);border-radius:10px;background:rgba(255,255,255,.96);text-align:center;text-decoration:none;box-shadow:0 16px 36px rgba(0,0,0,.2);transition:transform .2s ease,box-shadow .2s ease}
-.partner-offer-logo:hover,.partner-offer-logo:focus-visible{transform:translateY(-3px);box-shadow:0 20px 44px rgba(0,0,0,.32)}
-.partner-offer-logo img{display:block;max-width:100%;width:270px;height:auto;max-height:115px;object-fit:contain}
-.partner-offer-logo>span{color:#0c2d57;font-size:14px;font-weight:700}
-@media(max-width:760px){.partner-offer{padding:40px 0}.partner-offer-inner{grid-template-columns:1fr;gap:24px}.partner-offer-logo{min-height:155px}}
-@media(prefers-reduced-motion:reduce){.partner-offer-logo{transition:none}}
+/* Unified affiliate partner section — matched to Lead Empowered TV */
+.affiliate-partners{padding:58px 0;background:linear-gradient(120deg,#070a10,#0c2d57);color:#f4f6fa;border-top:1px solid rgba(217,173,84,.5)}
+.affiliate-partners-heading{text-align:center;max-width:750px;margin:0 auto 30px}
+.affiliate-partners-eyebrow,.affiliate-partners-heading h2 span{color:#d9ad54}
+.affiliate-partners-eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.15em;margin:0 0 10px}
+.affiliate-partners-heading h2{color:#fff;font-size:clamp(1.8rem,3vw,2.7rem);margin:10px 0 12px;text-transform:none;line-height:1.2}
+.affiliate-partners-heading>p:last-child{color:#dbe4ef;line-height:1.6}
+.affiliate-partners-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1100px;margin:0 auto}
+.affiliate-partner-card{display:flex;flex-direction:column;overflow:hidden;border:1px solid rgba(217,173,84,.5);border-radius:12px;background:#fff;color:#1c2935;box-shadow:0 14px 32px rgba(0,0,0,.18)}
+.affiliate-partner-image{display:flex;align-items:center;justify-content:center;min-height:170px;padding:26px;background:#f7f8f9;border-bottom:1px solid #e7e9ed}
+.affiliate-partner-image img{display:block;width:100%;max-width:310px;max-height:125px;height:auto;object-fit:contain}
+.affiliate-partner-body{display:flex;flex-direction:column;align-items:flex-start;flex:1;padding:26px}
+.affiliate-partner-category{color:#2b6b99;font-size:.72rem;font-weight:800;letter-spacing:.12em;margin:0 0 8px}
+.affiliate-partner-body h3{font-size:1.45rem;margin:0 0 10px;color:#15283a}
+.affiliate-partner-body>p:not(.affiliate-partner-category):not(.affiliate-partner-note){line-height:1.6;margin:0 0 18px}
+.affiliate-partner-link{display:inline-block;margin-top:auto;font-weight:750;color:#205e89;text-decoration:underline;text-underline-offset:3px}
+.affiliate-partner-note{font-size:.73rem;line-height:1.55;color:#66727d;margin:20px 0 0}
+.affiliate-partners-disclosure{max-width:1050px;margin:22px auto 0;font-size:.75rem;line-height:1.6;color:#cbd5e0;text-align:center}
+@media(max-width:760px){.affiliate-partners{padding:40px 0}.affiliate-partners-grid{grid-template-columns:1fr}.affiliate-partner-image{min-height:140px}.affiliate-partner-body{padding:22px}}
