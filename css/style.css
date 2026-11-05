@@ -85,22 +85,23 @@ img{max-width:100%;height:auto}
 @media(max-width:520px){.profile-actions.compact-profile-actions .btn{white-space:normal}}
 
 
-/* Unified affiliate partner section — matched to Lead Empowered TV */
-.affiliate-partners{padding:58px 0;background:linear-gradient(120deg,#070a10,#0c2d57);color:#f4f6fa;border-top:1px solid rgba(217,173,84,.5)}
-.affiliate-partners-heading{text-align:center;max-width:750px;margin:0 auto 30px}
-.affiliate-partners-eyebrow,.affiliate-partners-heading h2 span{color:#d9ad54}
-.affiliate-partners-eyebrow{font-size:.78rem;font-weight:800;letter-spacing:.15em;margin:0 0 10px}
-.affiliate-partners-heading h2{color:#fff;font-size:clamp(1.8rem,3vw,2.7rem);margin:10px 0 12px;text-transform:none;line-height:1.2}
-.affiliate-partners-heading>p:last-child{color:#dbe4ef;line-height:1.6}
-.affiliate-partners-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;max-width:1100px;margin:0 auto}
-.affiliate-partner-card{display:flex;flex-direction:column;overflow:hidden;border:1px solid rgba(217,173,84,.5);border-radius:12px;background:#fff;color:#1c2935;box-shadow:0 14px 32px rgba(0,0,0,.18)}
-.affiliate-partner-image{display:flex;align-items:center;justify-content:center;min-height:170px;padding:26px;background:#f7f8f9;border-bottom:1px solid #e7e9ed}
-.affiliate-partner-image img{display:block;width:100%;max-width:310px;max-height:125px;height:auto;object-fit:contain}
-.affiliate-partner-body{display:flex;flex-direction:column;align-items:flex-start;flex:1;padding:26px}
-.affiliate-partner-category{color:#2b6b99;font-size:.72rem;font-weight:800;letter-spacing:.12em;margin:0 0 8px}
-.affiliate-partner-body h3{font-size:1.45rem;margin:0 0 10px;color:#15283a}
-.affiliate-partner-body>p:not(.affiliate-partner-category):not(.affiliate-partner-note){line-height:1.6;margin:0 0 18px}
-.affiliate-partner-link{display:inline-block;margin-top:auto;font-weight:750;color:#205e89;text-decoration:underline;text-underline-offset:3px}
-.affiliate-partner-note{font-size:.73rem;line-height:1.55;color:#66727d;margin:20px 0 0}
-.affiliate-partners-disclosure{max-width:1050px;margin:22px auto 0;font-size:.75rem;line-height:1.6;color:#cbd5e0;text-align:center}
-@media(max-width:760px){.affiliate-partners{padding:40px 0}.affiliate-partners-grid{grid-template-columns:1fr}.affiliate-partner-image{min-height:140px}.affiliate-partner-body{padding:22px}}
+/* Unified editorial affiliate showcase — aligned with Write Empowered */
+.curated-partners{background:linear-gradient(130deg,#080e19,#0c2d57);padding:52px 0 46px;color:#fff;border-top:1px solid rgba(217,173,84,.35)}
+.curated-partners-heading{text-align:center;margin:0 auto 26px;max-width:700px}
+.curated-partners-eyebrow{color:#d9ad54;font-size:.78rem;font-weight:800;letter-spacing:.15em;margin:0}
+.curated-partners-heading h2{color:#fff;font-size:clamp(30px,3.4vw,45px);margin:9px 0 12px;line-height:1.2;text-transform:none}
+.curated-partners-heading h2 span{color:#d9ad54}
+.curated-partners-heading>p:last-child{color:#d2deeb;margin:0}
+.curated-partner-list{display:grid;gap:14px}
+.curated-partner-row{display:grid;grid-template-columns:170px minmax(0,1fr) auto;align-items:center;gap:24px;background:rgba(255,255,255,.055);border:1px solid rgba(217,173,84,.28);border-radius:10px;padding:20px 24px}
+.curated-partner-image{background:#fff;border-radius:7px;min-height:115px;display:flex;align-items:center;justify-content:center;padding:15px}
+.curated-partner-image img{width:100%;height:auto;max-height:95px;object-fit:contain}
+.curated-partner-category{color:#d9ad54!important;font-size:11px;font-weight:800;letter-spacing:.13em;margin:0 0 6px!important}
+.curated-partner-content h3{color:#fff;font-size:clamp(19px,2vw,25px);margin:0 0 7px}
+.curated-partner-content p{color:#d9e2ee;line-height:1.5;margin:0}
+.curated-partner-content .curated-partner-note{color:#b9c5d4;font-size:12px;margin-top:8px}
+.curated-partner-action{display:inline-flex;align-items:center;gap:7px;color:#f0ca78;font-weight:700;white-space:nowrap;text-decoration:none;border-bottom:1px solid rgba(240,202,120,.5);padding-bottom:4px}
+.curated-partner-action:hover{color:#fff;border-color:#fff}
+.curated-partners-disclosure{color:#b9c5d4;font-size:12px;text-align:center;margin:18px auto 0;max-width:850px;line-height:1.5}
+@media(max-width:850px){.curated-partner-row{grid-template-columns:130px minmax(0,1fr);gap:16px}.curated-partner-action{grid-column:2;justify-self:start}.curated-partner-image{min-height:100px}}
+@media(max-width:560px){.curated-partners{padding:36px 0}.curated-partner-row{grid-template-columns:1fr;padding:18px;gap:12px}.curated-partner-image{width:170px;min-height:95px}.curated-partner-action{grid-column:1}.curated-partners-heading{margin-bottom:20px}}
