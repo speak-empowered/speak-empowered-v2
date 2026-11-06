@@ -105,3 +105,8 @@ img{max-width:100%;height:auto}
 .curated-partners-disclosure{color:#b9c5d4;font-size:12px;text-align:center;margin:18px auto 0;max-width:850px;line-height:1.5}
 @media(max-width:850px){.curated-partner-row{grid-template-columns:130px minmax(0,1fr);gap:16px}.curated-partner-action{grid-column:2;justify-self:start}.curated-partner-image{min-height:100px}}
 @media(max-width:560px){.curated-partners{padding:36px 0}.curated-partner-row{grid-template-columns:1fr;padding:18px;gap:12px}.curated-partner-image{width:170px;min-height:95px}.curated-partner-action{grid-column:1}.curated-partners-heading{margin-bottom:20px}}
+
+/* Footer scripture reference — consistent with Write Empowered */
+.footer-faith{display:inline-flex;align-items:center;gap:7px;color:#fff;white-space:nowrap;font-size:inherit}
+.footer-faith svg{display:block;flex:none;color:#fff}
+.footer-faith-divider{color:inherit}
