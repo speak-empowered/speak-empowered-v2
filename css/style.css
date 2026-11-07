@@ -166,3 +166,74 @@ img{max-width:100%;height:auto}
 .platform-bottom-cta p:not(.eyebrow){margin:0 0 26px;color:#e5edf5}
 #contact-form{scroll-margin-top:120px}
 @media(max-width:760px){.platform-hero{padding:62px 0 68px}.platform-feature-grid,.platform-support-grid,.platform-podcast-grid{grid-template-columns:1fr}.platform-feature-wide{grid-column:auto}.platform-podcast-grid{gap:25px}.platform-investment{padding:25px}.platform-feature{padding:24px}.platform-support-card{padding:25px}}
+
+
+/* Platform premium visual refresh */
+.platform-hero{
+  position:relative;isolation:isolate;overflow:hidden;
+  background:linear-gradient(90deg,rgba(4,9,17,.96) 0%,rgba(7,20,36,.91) 47%,rgba(6,18,32,.45) 100%),url('../images/hero-podcast-mic.png') center 48%/cover no-repeat;
+  padding:96px 0 102px;
+}
+.platform-hero::after{content:"";position:absolute;inset:auto 0 0;height:4px;background:linear-gradient(90deg,#d0a900,#2b6b99);z-index:-1}
+.platform-hero-inner{max-width:1120px}
+.platform-hero h1{max-width:810px;font-size:clamp(2.65rem,5.5vw,4.95rem);line-height:1.07;letter-spacing:-.045em;text-wrap:balance}
+.platform-hero-lead{max-width:710px}
+.platform-hero .platform-audience{max-width:710px}
+.platform-hero .btn{box-shadow:0 12px 26px rgba(0,0,0,.3)}
+.platform-section-subtitle{max-width:730px;margin:12px auto 0;color:#5a6774;line-height:1.65}
+.platform-showcase{background:#f3f5f7;padding:74px 0 86px}
+.platform-showcase-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.platform-showcase-card{background:#fff;border:1px solid #e0e5eb;border-radius:13px;overflow:hidden;box-shadow:0 15px 38px rgba(16,31,48,.08)}
+.platform-browser{display:block;background:#111b29;padding:12px 12px 0;color:#fff}
+.platform-browser-bar{display:flex;align-items:center;gap:18px;background:#e9edf2;color:#526171;border-radius:8px 8px 0 0;padding:10px 14px;font-size:.72rem;letter-spacing:.015em}
+.platform-browser-dots{display:flex;gap:5px;flex-shrink:0}
+.platform-browser-dots i{display:block;width:8px;height:8px;border-radius:50%;background:#9daab7}
+.platform-browser-dots i:first-child{background:#e3a4a4}
+.platform-browser-dots i:nth-child(2){background:#e6c784}
+.platform-browser-dots i:last-child{background:#95bfa6}
+.platform-browser-screen{display:block;position:relative;overflow:hidden;aspect-ratio:16/10;background:#0b1b2d}
+.platform-browser-screen img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}
+.platform-browser:hover img{transform:scale(1.035)}
+.platform-browser-screen::after{content:"";position:absolute;inset:20% 0 0;background:linear-gradient(0deg,rgba(2,9,19,.94),transparent)}
+.platform-browser-overlay{position:absolute;left:7%;right:7%;bottom:10%;z-index:1;display:flex;flex-direction:column;gap:4px;color:#fff}
+.platform-browser-overlay strong{font-size:clamp(1.15rem,2.2vw,1.75rem);letter-spacing:.05em}
+.platform-browser-overlay small{font-size:.83rem;color:#f0d47e}
+.platform-showcase-copy{padding:24px 27px 28px}
+.platform-showcase-copy>span{color:#2b6b99;font-weight:800;font-size:.71rem;letter-spacing:.13em}
+.platform-showcase-copy h3{font-size:1.45rem;margin:7px 0 6px}
+.platform-showcase-copy p{margin:0 0 13px;color:#5a6570;line-height:1.6}
+.platform-showcase-copy a{color:#1f618d;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.platform-packages{background:#fff;padding:82px 0}
+.platform-package-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:stretch}
+.platform-package-card{display:flex;flex-direction:column;position:relative;border:1px solid #d7dfe7;border-radius:13px;padding:35px 35px 30px;background:#fff;box-shadow:0 14px 35px rgba(11,29,49,.06)}
+.platform-package-card h3{font-size:clamp(1.35rem,2vw,1.7rem);margin:5px 0 7px;color:#172b40}
+.platform-package-eyebrow{font-size:.73rem;font-weight:800;letter-spacing:.14em;color:#2b6b99;margin:0}
+.platform-package-price{font-size:clamp(2.75rem,4vw,3.6rem);font-weight:900;letter-spacing:-.04em;line-height:1.2;margin:10px 0 14px;color:#173b59}
+.platform-package-description{color:#5c6874;line-height:1.65;margin:0 0 12px}
+.platform-package-card ul{padding-left:20px;margin:10px 0 28px;line-height:1.8;color:#334557}
+.platform-package-card li{padding-left:4px;margin-bottom:6px}
+.platform-package-card li::marker{color:#2b6b99}
+.platform-package-button{margin-top:auto;align-self:flex-start;text-align:center;font-size:.82rem}
+.platform-package-featured{background:linear-gradient(150deg,#0b1727,#0c2d57);border:2px solid #d9ad54;box-shadow:0 20px 50px rgba(11,29,49,.2);color:#fff}
+.platform-package-featured h3,.platform-package-featured .platform-package-price{color:#fff}
+.platform-package-featured .platform-package-price{color:#edca71}
+.platform-package-featured .platform-package-eyebrow{color:#edca71}
+.platform-package-featured .platform-package-description,.platform-package-featured ul{color:#e0e9f2}
+.platform-package-featured li::marker{color:#edca71}
+.platform-package-featured .platform-package-button{background:#d9ad54;color:#101a27}
+.platform-package-featured .platform-package-button:hover{background:#fff;color:#101a27}
+.platform-package-flag{position:absolute;right:18px;top:-15px;margin:0;background:#d9ad54;color:#101a27;padding:7px 13px;border-radius:3px;font-size:.68rem;letter-spacing:.11em;font-weight:900}
+.platform-package-caption{margin:24px 0 0;text-align:center;color:#6b7784;font-size:.9rem}
+.platform-services{background:#f8f9fa}
+.platform-services .platform-feature{background:#fff;border-radius:7px}
+.platform-process{background:#fff;padding:76px 0 85px}
+.platform-process-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;padding:0;margin:0;list-style:none;counter-reset:none}
+.platform-process-grid li{position:relative;border-top:3px solid #d9ad54;background:#f3f5f7;padding:25px 21px 28px;min-height:210px}
+.platform-process-grid li span{display:inline-flex;color:#2b6b99;font-weight:900;letter-spacing:.1em;font-size:.9rem}
+.platform-process-grid li h3{font-size:1.25rem;margin:11px 0 9px;color:#162d43}
+.platform-process-grid li p{font-size:.92rem;line-height:1.6;color:#5b6874;margin:0}
+.platform-experience{background:#f6f8fa}
+@media(max-width:850px){.platform-process-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.platform-hero{background-position:62% center}}
+@media(max-width:680px){.platform-hero{background:linear-gradient(90deg,rgba(4,9,17,.93),rgba(7,20,36,.82)),url('../images/hero-podcast-mic.png') 58% center/cover no-repeat;padding:62px 0 70px}.platform-showcase-grid,.platform-package-grid{grid-template-columns:1fr}.platform-package-card{padding:31px 25px}.platform-showcase,.platform-packages,.platform-process{padding:55px 0}.platform-showcase-copy{padding:21px}.platform-browser-overlay strong{font-size:1.2rem}}
+@media(max-width:440px){.platform-process-grid{grid-template-columns:1fr}.platform-process-grid li{min-height:0}.platform-package-flag{font-size:.62rem}}
+@media(prefers-reduced-motion:reduce){.platform-browser-screen img{transition:none}}
