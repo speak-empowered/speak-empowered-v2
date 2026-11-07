@@ -110,3 +110,59 @@ img{max-width:100%;height:auto}
 .footer-faith{display:inline-flex;align-items:center;gap:7px;color:#fff;white-space:nowrap;font-size:inherit}
 .footer-faith svg{display:block;flex:none;color:#fff}
 .footer-faith-divider{color:inherit}
+
+
+/* Platform Development — Speak Empowered */
+@media(min-width:801px){.nav .logo{width:min(360px,33vw)}.nav-links{gap:18px}.nav-links a{font-size:.82rem}}
+@media(min-width:801px) and (max-width:1020px){.menu{display:block}.nav{min-height:76px}.logo{width:280px!important;max-width:72vw}.nav-links{display:none;position:absolute;left:0;right:0;top:76px;background:#080808;padding:22px 4%;flex-direction:column;align-items:flex-start}.nav-links.open{display:flex}}
+.nav-links a[aria-current="page"]{color:var(--gold)}
+.platform-hero{background:radial-gradient(circle at 88% 12%,rgba(43,107,153,.3),transparent 44%),linear-gradient(125deg,#06080d,#0b2035 70%,#07111e);color:#fff;padding:88px 0 92px;border-bottom:5px solid var(--gold)}
+.platform-hero-inner{max-width:1050px}
+.platform-hero h1{font-size:clamp(2.5rem,5.5vw,5rem);line-height:1.05;letter-spacing:-.04em;margin:20px 0 26px;max-width:1000px}
+.platform-hero h1 span{color:#e0bd55}
+.platform-hero-lead{font-size:clamp(1.08rem,1.6vw,1.32rem);line-height:1.65;color:#e1e7ef;max-width:850px;margin:0 0 16px}
+.platform-audience{font-weight:700;color:#e0bd55;margin:0 0 30px}
+.platform-primary-btn{background:#d0a900;color:#111}
+.platform-primary-btn:hover{background:#fff;color:#0c2d57}
+.platform-narrow{max-width:860px}
+.platform-overline{color:#2b6b99;text-transform:uppercase;letter-spacing:.15em;font-weight:800;font-size:.78rem;margin:0 0 10px}
+.platform-intro{text-align:center;background:#f5f6f8}
+.platform-intro h2,.platform-experience h2{font-size:clamp(2rem,4vw,3.25rem);line-height:1.15;text-transform:none;margin:0 0 22px}
+.platform-intro h2 span{color:#2b6b99}
+.platform-intro p:last-child,.platform-experience p:not(.platform-overline){font-size:1.12rem;line-height:1.8;color:#4e5b66}
+.platform-services{background:#fff}
+.platform-section-heading{text-align:center;margin:0 auto 35px}
+.platform-section-heading h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.15;margin:0 0 8px;text-transform:none}
+.platform-price{color:#2b6b99;font-size:2.2rem;font-weight:900;line-height:1.2;margin:8px 0 0}
+.platform-feature-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.platform-feature{border:1px solid #dce2e8;border-top:4px solid #d0a900;background:#fafbfc;padding:28px 30px}
+.platform-feature-number{font-size:.77rem;letter-spacing:.12em;font-weight:800;color:#2b6b99}
+.platform-feature h3{font-size:1.35rem;margin:8px 0}
+.platform-feature p{margin:0;color:#515e69;line-height:1.7}
+.platform-feature-wide{grid-column:1/-1}
+.platform-scope-note{max-width:950px;margin:28px auto 0;color:#65707a;font-size:.92rem;line-height:1.65;text-align:center}
+.platform-podcast{background:linear-gradient(120deg,#0a0e17,#0c2d57);color:#fff}
+.platform-podcast-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(250px,.85fr);gap:65px;align-items:center}
+.platform-podcast .platform-overline{color:#e0bd55}
+.platform-podcast h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.15;margin:0 0 20px;text-transform:none}
+.platform-podcast-grid>div:first-child>p:last-child{color:#d6e0ec;line-height:1.75;font-size:1.08rem}
+.platform-investment{border:1px solid rgba(224,189,85,.6);background:rgba(255,255,255,.055);padding:32px;border-radius:8px}
+.platform-investment-label{font-size:.78rem;font-weight:800;text-transform:uppercase;letter-spacing:.09em;color:#d9e4ef;margin:0 0 6px}
+.platform-investment-amount{font-size:2.2rem;font-weight:900;color:#fff;margin:0}
+.platform-investment-divider{height:1px;background:rgba(224,189,85,.45);margin:22px 0}
+.platform-investment-amount.platform-total{color:#e0bd55}
+.platform-support{background:#f5f6f8}
+.platform-support-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.platform-support-card{background:#fff;border:1px solid #dce2e8;border-radius:8px;padding:32px;box-shadow:0 8px 24px rgba(0,0,0,.04)}
+.platform-support-name{font-size:1.1rem;font-weight:800;margin:0 0 12px}
+.platform-support-price{font-size:2.25rem;line-height:1.2;font-weight:900;color:#2b6b99;margin:0 0 16px}
+.platform-support-price span{font-size:1rem;font-weight:600;color:#5e6872}
+.platform-support-card>p:last-child{line-height:1.7;color:#4e5b66;margin:0}
+.platform-experience{text-align:center;background:#fff}
+.platform-terms{font-size:.9rem!important;color:#687480!important;margin-top:22px}
+.platform-bottom-cta{padding:68px 0;background:#2b6b99;color:#fff;text-align:center}
+.platform-bottom-cta .eyebrow{color:#f0d26b}
+.platform-bottom-cta h2{font-size:clamp(2rem,4vw,3rem);line-height:1.2;margin:12px 0;text-transform:none}
+.platform-bottom-cta p:not(.eyebrow){margin:0 0 26px;color:#e5edf5}
+#contact-form{scroll-margin-top:120px}
+@media(max-width:760px){.platform-hero{padding:62px 0 68px}.platform-feature-grid,.platform-support-grid,.platform-podcast-grid{grid-template-columns:1fr}.platform-feature-wide{grid-column:auto}.platform-podcast-grid{gap:25px}.platform-investment{padding:25px}.platform-feature{padding:24px}.platform-support-card{padding:25px}}
