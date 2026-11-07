@@ -28,3 +28,9 @@ if (homeTicker) {
     });
   }
 }
+
+// Preselect the relevant contact topic for platform-development inquiries.
+const contactInterest = document.querySelector('form[name="contact"] select[name="interest"]');
+if (contactInterest && new URLSearchParams(window.location.search).get('interest') === 'platform') {
+  contactInterest.value = 'Creating My Own Platform';
+}
