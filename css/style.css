@@ -237,3 +237,16 @@ img{max-width:100%;height:auto}
 @media(max-width:680px){.platform-hero{background:linear-gradient(90deg,rgba(4,9,17,.93),rgba(7,20,36,.82)),url('../images/hero-podcast-mic.png') 58% center/cover no-repeat;padding:12px 0 48px}.platform-showcase-grid,.platform-package-grid{grid-template-columns:1fr}.platform-package-card{padding:31px 25px}.platform-showcase,.platform-packages,.platform-process{padding:55px 0}.platform-showcase-copy{padding:21px}.platform-browser-overlay strong{font-size:1.2rem}}
 @media(max-width:440px){.platform-process-grid{grid-template-columns:1fr}.platform-process-grid li{min-height:0}.platform-package-flag{font-size:.62rem}}
 @media(prefers-reduced-motion:reduce){.platform-browser-screen img{transition:none}}
+
+
+/* Platform testimonial */
+.platform-testimonial{background:#fff;padding:64px 0 70px}
+.platform-testimonial-inner{max-width:940px;text-align:center}
+.platform-testimonial .platform-overline{margin-bottom:18px}
+.platform-testimonial blockquote{position:relative;margin:0;padding:26px 42px 30px;background:#f6f8fa;border-left:5px solid #d9ad54;border-radius:4px 12px 12px 4px;box-shadow:0 10px 32px rgba(11,29,49,.055)}
+.platform-testimonial blockquote::before{content:"“";display:block;font-family:Georgia,serif;font-size:4.8rem;line-height:.7;color:#d0a900;margin:8px auto 12px}
+.platform-testimonial blockquote>p{font-size:clamp(1.25rem,2.4vw,1.8rem);line-height:1.55;font-weight:650;color:#173047;margin:0 0 24px}
+.platform-testimonial cite{display:flex;flex-direction:column;gap:5px;font-style:normal}
+.platform-testimonial cite strong{color:#142e46;font-size:1rem}
+.platform-testimonial cite span{color:#5b6875;font-size:.9rem;line-height:1.5}
+@media(max-width:680px){.platform-testimonial{padding:48px 0}.platform-testimonial blockquote{padding:24px 20px 27px}}
