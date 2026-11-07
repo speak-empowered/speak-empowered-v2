@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://speakempowered.netlify.app/</loc></url>
-  <url><loc>https://speakempowered.netlify.app/about</loc></url>
-  <url><loc>https://speakempowered.netlify.app/apply</loc></url>
-  <url><loc>https://speakempowered.netlify.app/contact</loc></url>
-  <url><loc>https://speakempowered.netlify.app/speakers/nathan-r-mitchell</loc></url>
+  <url><loc>https://speakempowered.com/</loc></url>
+  <url><loc>https://speakempowered.com/about.html</loc></url>
+  <url><loc>https://speakempowered.com/platform-development.html</loc></url>
+  <url><loc>https://speakempowered.com/apply.html</loc></url>
+  <url><loc>https://speakempowered.com/contact.html</loc></url>
+  <url><loc>https://speakempowered.com/speakers/eli-brackenbury.html</loc></url>
+  <url><loc>https://speakempowered.com/speakers/nathan-r-mitchell.html</loc></url>
 </urlset>
