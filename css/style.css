@@ -265,3 +265,18 @@ img{max-width:100%;height:auto}
 @media(min-width:951px){.page-hero--conversation>.container{padding-right:290px}}
 @media(max-width:950px){.page-hero--conversation .conversation-art{right:-45px;opacity:.24}}
 @media(max-width:600px){.page-hero--conversation{padding:45px 0}.page-hero--conversation .conversation-art{right:-125px;transform:translateY(-50%) scale(.75);opacity:.16}}
+
+/* About and roster icon heroes */
+.page-hero--icon{background:radial-gradient(circle at 86% 50%,rgba(43,107,153,.28),transparent 40%),linear-gradient(115deg,#080c12,#0b2235);overflow:hidden;padding:46px 0 50px}
+.hero-icon-layout{display:grid;grid-template-columns:minmax(0,1fr) 260px;align-items:center;gap:36px}
+.hero-icon-copy{min-width:0}
+.page-hero--icon h1{font-size:clamp(2.4rem,5vw,4.25rem);line-height:1.06;max-width:780px}
+.page-hero--icon p{color:#d5e0e9;font-size:1.08rem;max-width:670px;margin:14px 0 0}
+.hero-icon-art{position:relative;height:180px;width:250px;justify-self:center}
+.hero-icon-tile{position:absolute;display:flex;align-items:center;justify-content:center;border:2px solid rgba(208,169,0,.78);border-radius:20px;background:linear-gradient(140deg,rgba(43,107,153,.45),rgba(8,23,39,.9));color:#f0c851;box-shadow:0 14px 35px rgba(0,0,0,.22)}
+.hero-icon-tile svg{width:56%;height:56%}
+.hero-icon-tile--primary{width:130px;height:130px;left:60px;top:27px;z-index:2;transform:rotate(-7deg)}
+.hero-icon-tile--top{width:84px;height:84px;right:0;top:0;color:#b5d9f1;border-color:rgba(151,192,220,.75);transform:rotate(11deg)}
+.hero-icon-tile--bottom{width:84px;height:84px;left:0;bottom:0;color:#b5d9f1;border-color:rgba(151,192,220,.75);transform:rotate(9deg)}
+@media(max-width:760px){.page-hero--icon{padding:38px 0 40px}.hero-icon-layout{grid-template-columns:minmax(0,1fr) 135px;gap:14px}.hero-icon-art{width:130px;height:135px}.hero-icon-tile--primary{width:80px;height:80px;left:30px;top:25px}.hero-icon-tile--top{width:52px;height:52px}.hero-icon-tile--bottom{width:52px;height:52px}.page-hero--icon h1{font-size:clamp(2rem,5vw,3rem)}}
+@media(max-width:520px){.hero-icon-layout{grid-template-columns:1fr;gap:12px}.hero-icon-art{width:130px;height:90px;justify-self:start;margin-left:10px}.hero-icon-tile--primary{width:72px;height:72px;left:29px;top:8px}.hero-icon-tile--top{width:45px;height:45px;right:0;top:0}.hero-icon-tile--bottom{width:45px;height:45px;left:0;bottom:0}.page-hero--icon{padding:32px 0 30px}}
