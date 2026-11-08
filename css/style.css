@@ -250,3 +250,18 @@ img{max-width:100%;height:auto}
 .platform-testimonial cite strong{color:#142e46;font-size:1rem}
 .platform-testimonial cite span{color:#5b6875;font-size:.9rem;line-height:1.5}
 @media(max-width:680px){.platform-testimonial{padding:48px 0}.platform-testimonial blockquote{padding:24px 20px 27px}}
+
+/* Conversation-themed Contact hero, matching Lead Empowered TV */
+.page-hero--conversation{position:relative;overflow:hidden;isolation:isolate;background:linear-gradient(120deg,#071521,#0d3150);padding:60px 0}
+.page-hero--conversation>.container{position:relative;z-index:1}
+.page-hero--conversation .conversation-art{position:absolute;right:max(4%,calc((100vw - 1120px)/2));top:50%;transform:translateY(-50%);width:255px;height:170px;pointer-events:none;opacity:.88}
+.conversation-art .conversation-bubble{position:absolute;display:block;width:168px;height:104px;border:2px solid rgba(224,197,66,.82);border-radius:25px 25px 8px 25px;background:rgba(43,107,153,.13);box-shadow:0 8px 30px rgba(0,0,0,.12)}
+.conversation-art .conversation-bubble::after{content:"";position:absolute;right:22px;bottom:-15px;width:22px;height:22px;border-right:2px solid rgba(224,197,66,.82);border-bottom:2px solid rgba(224,197,66,.82);transform:skewY(38deg);background:#0c2b47}
+.conversation-art .conversation-bubble--back{top:3px;right:2px;border-color:rgba(151,192,220,.65);background:rgba(43,107,153,.23);transform:rotate(8deg)}
+.conversation-art .conversation-bubble--back::after{border-color:rgba(151,192,220,.65)}
+.conversation-art .conversation-bubble--front{top:56px;left:4px;transform:rotate(-7deg)}
+.conversation-art .conversation-bubble i{position:absolute;top:45%;left:26px;width:9px;height:9px;border-radius:50%;background:currentColor;color:rgba(224,197,66,.8);box-shadow:29px 0 currentColor,58px 0 currentColor}
+.conversation-art .conversation-bubble--back i{color:rgba(151,192,220,.8)}
+@media(min-width:951px){.page-hero--conversation>.container{padding-right:290px}}
+@media(max-width:950px){.page-hero--conversation .conversation-art{right:-45px;opacity:.24}}
+@media(max-width:600px){.page-hero--conversation{padding:45px 0}.page-hero--conversation .conversation-art{right:-125px;transform:translateY(-50%) scale(.75);opacity:.16}}
