@@ -302,10 +302,10 @@ img{max-width:100%;height:auto}
 .platform-hero-promo-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;align-items:end;max-width:1180px}
 .platform-hero-copy{min-width:0}
 .platform-hero-promo-layout h1{font-size:clamp(2.5rem,4.35vw,4.3rem);max-width:810px}
-.platform-launch-seal{position:relative;display:block;width:320px;height:320px;justify-self:end;align-self:end;margin:0 -8px -24px 0;flex-shrink:0;text-decoration:none;color:#fff;filter:drop-shadow(0 15px 22px rgba(0,0,0,.35));transition:transform .2s ease,filter .2s ease}
-.platform-launch-seal:hover{transform:rotate(2deg) scale(1.025);filter:drop-shadow(0 17px 25px rgba(0,0,0,.42))}
+.platform-launch-seal{--seal-offset:42px;position:relative;display:block;width:320px;height:320px;justify-self:end;align-self:end;margin:0 -8px -24px 0;flex-shrink:0;text-decoration:none;color:#fff;filter:drop-shadow(0 15px 22px rgba(0,0,0,.35));transform:translateX(var(--seal-offset)) rotate(15deg);transition:transform .2s ease,filter .2s ease}
+.platform-launch-seal:hover{transform:translateX(var(--seal-offset)) rotate(18deg) scale(1.025);filter:drop-shadow(0 17px 25px rgba(0,0,0,.42))}
 .platform-launch-seal:focus-visible{outline:3px solid #fff;outline-offset:5px;border-radius:50%}
 .platform-launch-seal-shape{display:block;width:100%;height:100%;overflow:visible}
-@media(max-width:1050px){.platform-hero-promo-layout{grid-template-columns:minmax(0,1fr) 275px;gap:14px}.platform-hero-promo-layout h1{font-size:clamp(2.35rem,4.15vw,3.75rem)}.platform-launch-seal{width:275px;height:275px;margin-bottom:-12px}}
-@media(max-width:760px){.platform-hero-promo-layout{grid-template-columns:1fr;gap:8px}.platform-hero-promo-layout h1{font-size:clamp(2.25rem,8vw,3.5rem)}.platform-launch-seal{justify-self:center;align-self:center;width:min(270px,76vw);height:auto;aspect-ratio:1;margin:4px auto 0}}
+@media(max-width:1050px){.platform-hero-promo-layout{grid-template-columns:minmax(0,1fr) 275px;gap:14px}.platform-hero-promo-layout h1{font-size:clamp(2.35rem,4.15vw,3.75rem)}.platform-launch-seal{--seal-offset:18px;width:275px;height:275px;margin-bottom:-12px}}
+@media(max-width:760px){.platform-hero-promo-layout{grid-template-columns:1fr;gap:8px}.platform-hero-promo-layout h1{font-size:clamp(2.25rem,8vw,3.5rem)}.platform-launch-seal{--seal-offset:0px;justify-self:center;align-self:center;width:min(270px,76vw);height:auto;aspect-ratio:1;margin:4px auto 0}}
 @media(prefers-reduced-motion:reduce){.platform-launch-seal{transition:none}}
