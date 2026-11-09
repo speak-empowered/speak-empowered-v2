@@ -296,3 +296,23 @@ img{max-width:100%;height:auto}
 .platform-process-grid li h3{grid-column:2;grid-row:1;margin:0;line-height:1.25}
 .platform-process-grid li p{grid-column:1/-1}
 @media(max-width:540px){.platform-feature{grid-template-columns:46px minmax(0,1fr)}.platform-process-grid li{grid-template-columns:46px minmax(0,1fr)}.platform-feature .platform-icon,.platform-process-grid .platform-icon{width:46px;height:46px;border-radius:12px}.platform-feature .platform-icon svg,.platform-process-grid .platform-icon svg{width:25px;height:25px}}
+
+
+/* Build Your Platform: official launch starburst in hero */
+.platform-hero-promo-layout{display:grid;grid-template-columns:minmax(0,1fr) 254px;gap:24px;align-items:center;max-width:1180px}
+.platform-hero-copy{min-width:0}
+.platform-hero-promo-layout h1{font-size:clamp(2.5rem,4.45vw,4.4rem);max-width:810px}
+.platform-launch-seal{position:relative;display:block;width:254px;height:254px;justify-self:end;flex-shrink:0;text-decoration:none;color:#fff;filter:drop-shadow(0 15px 22px rgba(0,0,0,.35));transition:transform .2s ease,filter .2s ease}
+.platform-launch-seal:hover{transform:rotate(3deg) scale(1.035);filter:drop-shadow(0 17px 25px rgba(0,0,0,.42))}
+.platform-launch-seal:focus-visible{outline:3px solid #fff;outline-offset:5px;border-radius:50%}
+.platform-launch-seal-shape{position:absolute;inset:0;width:100%;height:100%}
+.platform-launch-seal-content{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:42px 38px;line-height:1.15}
+.platform-launch-seal-kicker{font-size:10px;letter-spacing:.12em;font-weight:850;color:#f3d983}
+.platform-launch-seal-content strong{display:flex;flex-direction:column;font-size:19px;line-height:1.08;letter-spacing:.03em;margin:6px 0 0;color:#fff}
+.platform-launch-seal-content strong span{font-size:30px}
+.platform-launch-seal-divider{display:block;height:1px;width:105px;background:#d0a900;margin:10px 0}
+.platform-launch-seal-offer{font-size:16px;font-weight:900;letter-spacing:.04em;color:#f0d27c;line-height:1.15}
+.platform-launch-seal-deadline{font-size:9px;letter-spacing:.045em;font-weight:800;color:#fff;margin-top:9px;white-space:nowrap}
+@media(max-width:960px){.platform-hero-promo-layout{grid-template-columns:minmax(0,1fr) 205px;gap:16px}.platform-hero-promo-layout h1{font-size:clamp(2.25rem,4.3vw,3.6rem)}.platform-launch-seal{width:205px;height:205px}.platform-launch-seal-content{padding:34px 28px}.platform-launch-seal-kicker{font-size:9px}.platform-launch-seal-content strong{font-size:16px}.platform-launch-seal-content strong span{font-size:26px}.platform-launch-seal-divider{margin:7px 0}.platform-launch-seal-offer{font-size:13px}.platform-launch-seal-deadline{font-size:8px;margin-top:7px}}
+@media(max-width:700px){.platform-hero-promo-layout{grid-template-columns:1fr;gap:24px}.platform-hero-promo-layout h1{font-size:clamp(2.25rem,8vw,3.5rem)}.platform-launch-seal{justify-self:center;width:205px;height:205px;margin:0 auto}}
+@media(prefers-reduced-motion:reduce){.platform-launch-seal{transition:none}}
