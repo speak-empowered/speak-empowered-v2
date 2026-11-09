@@ -69,6 +69,12 @@ img{max-width:100%;height:auto}
 .home-ticker.is-ready .home-ticker-track{animation:home-ticker-scroll 48s linear infinite}
 .home-ticker-set{display:flex;flex:none;align-items:center;gap:34px;padding-right:34px;font-size:.87rem;font-weight:700;letter-spacing:.14em}
 .home-ticker .ticker-star{color:#c8ad65;font-size:1rem}
+/* Platform-building ticker: homepage motion, brand-matched gold accents. */
+.platform-ticker{border-top:2px solid var(--gold);border-bottom:2px solid var(--gold);padding:17px 0}
+.platform-ticker .ticker-star{color:var(--gold)}
+.platform-ticker .home-ticker-set span:not(.ticker-star):first-child{color:var(--gold)}
+.home-ticker:hover .home-ticker-track{animation-play-state:paused}
+@media(max-width:600px){.platform-ticker{padding:14px 0}}
 @keyframes home-ticker-scroll{to{transform:translateX(-50%)}}
 @media(max-width:600px){.home-ticker{padding:13px 0}.home-ticker-set{gap:24px;padding-right:24px;font-size:.74rem;letter-spacing:.1em}}
 @media(prefers-reduced-motion:reduce){.home-ticker-track{animation:none}.home-ticker{overflow-x:auto}}
