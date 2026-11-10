@@ -316,3 +316,38 @@ img{max-width:100%;height:auto}
 @media(max-width:1050px){.platform-hero-promo-layout{grid-template-columns:minmax(0,1fr) 275px;gap:14px}.platform-hero-promo-layout h1{font-size:clamp(2.35rem,4.15vw,3.75rem)}.platform-launch-seal{--seal-offset:18px;width:275px;height:275px;margin-bottom:-12px}}
 @media(max-width:760px){.platform-hero-promo-layout{grid-template-columns:1fr;gap:8px}.platform-hero-promo-layout h1{font-size:clamp(2.25rem,8vw,3.5rem)}.platform-launch-seal{--seal-offset:0px;justify-self:center;align-self:center;width:min(270px,76vw);height:auto;aspect-ratio:1;margin:4px auto 0}}
 @media(prefers-reduced-motion:reduce){.platform-launch-seal{transition:none}}
+
+
+/* Complementary Speak Empowered and Write Empowered brand pathways */
+.brand-pathways{padding:64px 0 70px;background:#f5f5f3;color:#1c2530}
+.brand-pathways-eyebrow{margin:0 0 9px;color:#2b6b99;font-size:.78rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+.brand-pathways h2{margin:0;font-size:clamp(1.9rem,3.7vw,3rem);line-height:1.15;text-transform:uppercase}
+.brand-pathways h2 span{color:#2b6b99}
+.brand-pathways-intro{max-width:760px;margin:15px 0 29px;color:#4c5661;font-size:1.02rem}
+.brand-pathways-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.brand-pathway-card{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding:26px 24px 24px;background:#fff;border:1px solid #dedede;border-top:4px solid var(--gold);box-shadow:0 9px 25px rgba(10,20,30,.06)}
+.brand-pathway-icon{width:46px;height:46px;display:grid;place-items:center;background:#eaf1f7;border-radius:8px;color:#2b6b99}
+.brand-pathway-icon svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.brand-pathway-card h3{margin:17px 0 9px;font-size:1.3rem;line-height:1.2;color:#111}
+.brand-pathway-card p{margin:0 0 22px;color:#555e68;font-size:.94rem;line-height:1.65;flex:1}
+.brand-pathway-card a{font-size:.82rem;font-weight:800;letter-spacing:.035em;color:#2b6b99;text-transform:uppercase}
+.brand-pathway-card a:hover,.brand-pathway-card a:focus-visible{color:#926f00;text-decoration:underline}
+.brand-pathway-card a span{margin-left:5px}
+
+.platform-writing{background:#0d1723;color:#fff;padding:56px 0;border-top:3px solid var(--gold);border-bottom:1px solid rgba(208,169,0,.45)}
+.platform-writing-inner{display:grid;grid-template-columns:110px minmax(0,1fr);gap:28px;align-items:center;max-width:1000px}
+.platform-writing-mark{display:grid;place-items:center;width:108px;height:108px;border:2px solid var(--gold);border-radius:50%;background:rgba(43,107,153,.18)}
+.platform-writing-mark svg{width:61px;height:61px;fill:none;stroke:var(--gold);stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round}
+.platform-writing .platform-overline{color:var(--gold);margin:0 0 10px}
+.platform-writing h2{font-size:clamp(1.8rem,3.3vw,2.8rem);line-height:1.16;margin:0 0 15px}
+.platform-writing h2 span{color:var(--gold)}
+.platform-writing-copy>p:not(.platform-overline){max-width:740px;color:#d3dbe4;line-height:1.7;margin:0 0 20px}
+.platform-writing-link{display:inline-block;background:var(--gold);color:#101010;padding:12px 19px;font-size:.85rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;border-radius:3px}
+.platform-writing-link:hover,.platform-writing-link:focus-visible{background:#fff;color:#10273d}
+
+.footer-brands{display:flex;align-items:center;flex-wrap:wrap;gap:9px 17px;margin:15px 0 11px;font-size:.84rem}
+.footer-brands-label{color:var(--gold);font-size:.73rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.footer-brands a{color:#ddd}
+.footer-brands a:hover,.footer-brands a:focus-visible{color:var(--gold);text-decoration:underline}
+@media(max-width:900px){.brand-pathways-grid{grid-template-columns:1fr 1fr}.brand-pathway-card:last-child{grid-column:1/-1}}
+@media(max-width:600px){.brand-pathways{padding:48px 0 52px}.brand-pathways-grid{grid-template-columns:1fr;gap:14px}.brand-pathway-card:last-child{grid-column:auto}.brand-pathway-card{padding:23px}.platform-writing{padding:44px 0}.platform-writing-inner{grid-template-columns:1fr;gap:17px}.platform-writing-mark{width:74px;height:74px}.platform-writing-mark svg{width:42px;height:42px}.footer-brands{gap:8px 14px}.footer-brands-label{width:100%}}
