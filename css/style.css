@@ -230,6 +230,22 @@ img{max-width:100%;height:auto}
 .platform-package-featured .platform-package-button:hover{background:#fff;color:#101a27}
 .platform-package-flag{position:absolute;right:18px;top:-15px;margin:0;background:#d9ad54;color:#101a27;padding:7px 13px;border-radius:3px;font-size:.68rem;letter-spacing:.11em;font-weight:900}
 .platform-package-caption{margin:24px 0 0;text-align:center;color:#6b7784;font-size:.9rem}
+/* Time-limited platform pre-launch rates: visible regular price + discounted rate */
+.platform-package-price,.platform-detail-price{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 14px}
+.platform-price-original{font-size:.48em;font-weight:600;letter-spacing:0;line-height:1.25;color:#78838f;text-decoration:line-through;text-decoration-thickness:2px;text-decoration-color:#a95656}
+.platform-price-sale{font:inherit;letter-spacing:inherit;line-height:inherit;color:inherit}
+.platform-package-price .platform-price-sale{font-weight:900}
+.platform-package-card .platform-price-offer{margin:-7px 0 17px;color:#1d678d;font-size:.8rem;font-weight:800;letter-spacing:.025em}
+.platform-package-featured .platform-price-original{color:#c5ceda;text-decoration-color:#f0b0a5}
+.platform-package-featured .platform-price-offer{color:var(--gold)}
+.platform-detail-price{justify-content:center;margin-bottom:6px}
+.platform-detail-price .platform-price-original{font-size:.6em}
+.platform-section-heading>.platform-price-offer{margin:4px 0 0;color:#2b6b99;font-size:.84rem;font-weight:800}
+.platform-investment .platform-detail-price{justify-content:flex-start}
+.platform-investment .platform-price-original{color:#c2cad6;text-decoration-color:#f0b0a5}
+.platform-investment .platform-price-offer{color:var(--gold);font-size:.77rem;font-weight:800;line-height:1.5;margin:7px 0 0}
+@media(max-width:480px){.platform-package-price{gap:3px 10px}.platform-package-price .platform-price-original{font-size:.42em}.platform-detail-price{gap:4px 11px}}
+
 .platform-services{background:#f8f9fa}
 .platform-services .platform-feature{background:#fff;border-radius:7px}
 .platform-process{background:#fff;padding:76px 0 85px}
