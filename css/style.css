@@ -385,5 +385,5 @@ img{max-width:100%;height:auto}
 
 /* Podcast destinations in About page stats column */
 .proof-stats .about-listen-links{grid-template-columns:1fr}
-.proof-stats .about-listen-platforms{margin-top:28px}
+.proof-stats .about-listen-platforms{margin-top:28px;border-top:0;padding-top:0}
 .proof-stats .about-listen-links a{padding:12px 14px}
