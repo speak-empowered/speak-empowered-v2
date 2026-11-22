@@ -358,6 +358,12 @@ img{max-width:100%;height:auto}
 .brand-pathway-card{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding:26px 24px 24px;background:#fff;border:1px solid #dedede;border-top:4px solid var(--gold);box-shadow:0 9px 25px rgba(10,20,30,.06)}
 .brand-pathway-icon{width:46px;height:46px;display:grid;place-items:center;background:#eaf1f7;border-radius:8px;color:#2b6b99}
 .brand-pathway-icon svg{width:27px;height:27px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+
+/* Home brand pathways: distinct coordinated colors for each service */
+.brand-pathway-card:nth-child(1) .brand-pathway-icon{background:#e6f0f8;border:1px solid #bcd4e7;color:#2b6b99}
+.brand-pathway-card:nth-child(2) .brand-pathway-icon{background:#fdf3d9;border:1px solid #e9d29a;color:#916817}
+.brand-pathway-card:nth-child(3) .brand-pathway-icon{background:#e1f3ef;border:1px solid #add9cf;color:#176d62}
+
 .brand-pathway-card h3{margin:17px 0 9px;font-size:1.3rem;line-height:1.2;color:#111}
 .brand-pathway-card p{margin:0 0 22px;color:#555e68;font-size:.94rem;line-height:1.65;flex:1}
 .brand-pathway-card a{font-size:.82rem;font-weight:800;letter-spacing:.035em;color:#2b6b99;text-transform:uppercase}
