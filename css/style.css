@@ -323,6 +323,17 @@ img{max-width:100%;height:auto}
 @media(max-width:540px){.platform-feature{grid-template-columns:46px minmax(0,1fr)}.platform-process-grid li{grid-template-columns:46px minmax(0,1fr)}.platform-feature .platform-icon,.platform-process-grid .platform-icon{width:46px;height:46px;border-radius:12px}.platform-feature .platform-icon svg,.platform-process-grid .platform-icon svg{width:25px;height:25px}}
 
 
+/* Build Your Platform: varied, muted icon palette across service and process cards */
+.platform-services .platform-feature:nth-child(1) .platform-icon{background:#e6f0f8;border-color:#bcd4e7;color:#2b6b99}
+.platform-services .platform-feature:nth-child(2) .platform-icon{background:#fdf3d9;border-color:#e9d29a;color:#916817}
+.platform-services .platform-feature:nth-child(3) .platform-icon{background:#e1f3ef;border-color:#add9cf;color:#176d62}
+.platform-services .platform-feature:nth-child(4) .platform-icon{background:#f0eafb;border-color:#d1c0eb;color:#72529d}
+.platform-services .platform-feature:nth-child(5) .platform-icon{background:#eaf3e4;border-color:#c6d9b6;color:#547a35}
+.platform-process .platform-process-grid li:nth-child(1) .platform-icon{background:#fdf3d9;border-color:#e9d29a;color:#916817}
+.platform-process .platform-process-grid li:nth-child(2) .platform-icon{background:#e1f3ef;border-color:#add9cf;color:#176d62}
+.platform-process .platform-process-grid li:nth-child(3) .platform-icon{background:#e6f0f8;border-color:#bcd4e7;color:#2b6b99}
+.platform-process .platform-process-grid li:nth-child(4) .platform-icon{background:#f0eafb;border-color:#d1c0eb;color:#72529d}
+
 /* Build Your Platform: official launch starburst in hero */
 .platform-hero-promo-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;align-items:end;max-width:1180px}
 .platform-hero-copy{min-width:0}
