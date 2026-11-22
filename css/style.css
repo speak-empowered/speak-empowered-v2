@@ -410,7 +410,7 @@ img{max-width:100%;height:auto}
 .insight-card h3{font-size:clamp(1.32rem,2vw,1.65rem);line-height:1.25;margin:15px 0 13px}
 .insight-card h3 a:hover,.insight-card h3 a:focus-visible{color:#e6c35b}
 .insight-card-body>p{color:#c8d3dc;font-size:.96rem;line-height:1.65;margin:0 0 22px}
-.insight-card-author{display:flex;justify-content:space-between;gap:8px 20px;flex-wrap:wrap;padding-top:16px;border-top:1px solid #31404e;color:#bac8d3;font-size:.83rem}
+.insight-card-author{margin-top:auto;display:flex;justify-content:space-between;gap:8px 20px;flex-wrap:wrap;padding-top:16px;border-top:1px solid #31404e;color:#bac8d3;font-size:.83rem}
 .insight-card-author a{color:#fff;font-weight:700;text-decoration:underline;text-decoration-color:#71879a;text-underline-offset:3px}
 .insight-card-author a:hover{color:var(--gold)}
 .insight-card-read{align-self:flex-start;display:inline-flex;gap:12px;align-items:center;margin-top:24px;color:var(--gold);font-size:.85rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
