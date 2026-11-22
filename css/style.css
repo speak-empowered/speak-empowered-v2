@@ -387,3 +387,41 @@ img{max-width:100%;height:auto}
 .proof-stats .about-listen-links{grid-template-columns:1fr}
 .proof-stats .about-listen-platforms{margin-top:28px;border-top:0;padding-top:0}
 .proof-stats .about-listen-links a{padding:12px 14px}
+
+/* Speak Empowered Insights — curated editorial collection */
+.insights-hero{background:radial-gradient(ellipse at 85% 25%,rgba(43,107,153,.35),transparent 48%),linear-gradient(125deg,#060b12,#101e2c 70%,#09111a);color:#fff;padding:67px 0 74px;border-bottom:5px solid var(--gold)}
+.insights-hero .eyebrow{font-size:.76rem}
+.insights-hero h1{font-size:clamp(2.5rem,5.6vw,5rem);line-height:1.05;letter-spacing:-.025em;text-transform:uppercase;margin:14px 0}
+.insights-tagline{color:#fff;font-size:clamp(1.2rem,2.5vw,1.65rem);font-weight:800;margin:8px 0 13px}
+.insights-lead{max-width:740px;color:#c8d5df;font-size:1.07rem;line-height:1.7;margin:0}
+.insights-library{background:#f4f6f8;padding:70px 0 85px}
+.insights-section-heading{max-width:780px;margin-bottom:30px}
+.insights-section-heading h2{font-size:clamp(1.75rem,3.6vw,2.65rem);line-height:1.16;color:#101a24;margin:9px 0 12px}
+.insights-section-heading p{color:#56616b;font-size:1.04rem;margin:0}
+.insights-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;align-items:stretch}
+.insight-card{background:#0d1823;color:#fff;display:flex;flex-direction:column;min-width:0;box-shadow:0 14px 35px rgba(5,18,30,.13);border-bottom:4px solid var(--gold);transition:transform .2s ease,box-shadow .2s ease}
+.insight-card:hover{transform:translateY(-4px);box-shadow:0 22px 45px rgba(5,18,30,.19)}
+.insight-card-image{display:block;overflow:hidden;aspect-ratio:16/9;background:#172d3e}
+.insight-card-image img{display:block;width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.insight-card:hover .insight-card-image img{transform:scale(1.035)}
+.insight-card-body{padding:25px 27px 28px;display:flex;flex:1;flex-direction:column;gap:0}
+.insight-card-meta{display:flex;align-items:center;gap:10px;flex-wrap:wrap;color:var(--gold);font-size:.74rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.insight-card-meta-separator{color:#7791a7}
+.insight-card h3{font-size:clamp(1.32rem,2vw,1.65rem);line-height:1.25;margin:15px 0 13px}
+.insight-card h3 a:hover,.insight-card h3 a:focus-visible{color:#e6c35b}
+.insight-card-body>p{color:#c8d3dc;font-size:.96rem;line-height:1.65;margin:0 0 22px}
+.insight-card-author{display:flex;justify-content:space-between;gap:8px 20px;flex-wrap:wrap;padding-top:16px;border-top:1px solid #31404e;color:#bac8d3;font-size:.83rem}
+.insight-card-author a{color:#fff;font-weight:700;text-decoration:underline;text-decoration-color:#71879a;text-underline-offset:3px}
+.insight-card-author a:hover{color:var(--gold)}
+.insight-card-read{align-self:flex-start;display:inline-flex;gap:12px;align-items:center;margin-top:24px;color:var(--gold);font-size:.85rem;font-weight:900;letter-spacing:.06em;text-transform:uppercase}
+.insight-card-read:hover,.insight-card-read:focus-visible{color:#fff}
+.insight-card-read span{font-size:1.15rem}
+.insights-bottom{background:#fff;padding:62px 0}
+.insights-bottom .container{display:flex;align-items:center;justify-content:space-between;gap:28px}
+.insights-bottom h2{font-size:clamp(1.65rem,3vw,2.25rem);margin:8px 0 8px;line-height:1.2}
+.insights-bottom p{margin:0;max-width:690px;color:#58636d}
+.insights-bottom .btn{flex-shrink:0}
+@media(min-width:900px){.insights-grid:has(> :only-child){grid-template-columns:minmax(0,620px)}}
+@media(max-width:899px){.insights-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:650px){.insights-hero{padding:43px 0 49px}.insights-library{padding:48px 0 60px}.insights-grid{grid-template-columns:1fr}.insights-bottom{padding:48px 0}.insights-bottom .container{align-items:flex-start;flex-direction:column}.insight-card-body{padding:23px}}
+@media(prefers-reduced-motion:reduce){.insight-card,.insight-card-image img{transition:none}.insight-card:hover,.insight-card:hover .insight-card-image img{transform:none}}
