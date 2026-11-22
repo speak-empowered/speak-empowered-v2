@@ -425,3 +425,10 @@ img{max-width:100%;height:auto}
 @media(max-width:899px){.insights-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.insights-hero{padding:43px 0 49px}.insights-library{padding:48px 0 60px}.insights-grid{grid-template-columns:1fr}.insights-bottom{padding:48px 0}.insights-bottom .container{align-items:flex-start;flex-direction:column}.insight-card-body{padding:23px}}
 @media(prefers-reduced-motion:reduce){.insight-card,.insight-card-image img{transition:none}.insight-card:hover,.insight-card:hover .insight-card-image img{transform:none}}
+
+/* Insights editorial hero artwork, aligned with About/Contact hero icon treatments */
+.insights-hero-layout{display:grid;grid-template-columns:minmax(0,1fr) 255px;align-items:center;gap:36px}
+.insights-hero-copy{min-width:0}
+.insights-hero-art{justify-self:end}
+@media(max-width:760px){.insights-hero-layout{grid-template-columns:minmax(0,1fr) 145px;gap:16px}.insights-hero-art{width:130px;height:135px}}
+@media(max-width:520px){.insights-hero-layout{grid-template-columns:1fr;gap:20px}.insights-hero-art{justify-self:center;width:130px;height:135px}}
