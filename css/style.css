@@ -421,7 +421,7 @@ img{max-width:100%;height:auto}
 .insights-bottom h2{font-size:clamp(1.65rem,3vw,2.25rem);margin:8px 0 8px;line-height:1.2}
 .insights-bottom p{margin:0;max-width:690px;color:#58636d}
 .insights-bottom .btn{flex-shrink:0}
-@media(min-width:900px){.insights-grid:has(> :only-child){grid-template-columns:minmax(0,620px)}}
+@media(min-width:900px){.insights-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:899px){.insights-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:650px){.insights-hero{padding:43px 0 49px}.insights-library{padding:48px 0 60px}.insights-grid{grid-template-columns:1fr}.insights-bottom{padding:48px 0}.insights-bottom .container{align-items:flex-start;flex-direction:column}.insight-card-body{padding:23px}}
 @media(prefers-reduced-motion:reduce){.insight-card,.insight-card-image img{transition:none}.insight-card:hover,.insight-card:hover .insight-card-image img{transform:none}}
