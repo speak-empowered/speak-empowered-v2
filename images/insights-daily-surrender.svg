@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">A new day of surrender</title><desc id="desc">Golden morning light falls on an open Bible beside a quiet landscape, evoking a daily decision to trust God.</desc>
+<defs>
+<linearGradient id="sky" x1="0" y1="0" x2=".12" y2="1"><stop stop-color="#0b2438"/><stop offset=".48" stop-color="#315779"/><stop offset=".79" stop-color="#a77b54"/><stop offset="1" stop-color="#edc785"/></linearGradient>
+<radialGradient id="light" cx=".7" cy=".53" r=".58"><stop stop-color="#ffe7b1" stop-opacity=".96"/><stop offset=".34" stop-color="#efbb6b" stop-opacity=".42"/><stop offset="1" stop-color="#eeb868" stop-opacity="0"/></radialGradient>
+<linearGradient id="table" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#213b4b"/><stop offset="1" stop-color="#071a29"/></linearGradient>
+<linearGradient id="page" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff5df"/><stop offset="1" stop-color="#c9ae81"/></linearGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#sky)"/><rect width="1200" height="675" fill="url(#light)"/>
+<circle cx="830" cy="298" r="93" fill="#ffe6ad" opacity=".75" filter="url(#glow)"/><circle cx="830" cy="298" r="55" fill="#ffe2a2" opacity=".83"/>
+<path d="M0 385Q140 323 270 370T565 366T900 377T1200 348V675H0Z" fill="#2e5263" opacity=".57"/>
+<path d="M0 426Q170 355 380 405T760 401T1200 378V675H0Z" fill="#19374a" opacity=".82"/>
+<path d="M0 476Q160 430 320 470T660 461T1200 432V675H0Z" fill="#0c293b"/>
+<g opacity=".65" stroke="#d9a95f" stroke-width="3" fill="none"><path d="M900 328l-40 70m-30-70 20 60m-160-45 42 75"/></g>
+<rect y="513" width="1200" height="162" fill="url(#table)"/>
+<path d="M0 515Q350 500 650 520T1200 508" fill="none" stroke="#e2b56c" stroke-opacity=".24" stroke-width="4"/>
+<g transform="translate(90 385)">
+<path d="M15 145Q210 88 442 146Q664 91 900 145L872 211Q648 161 442 212Q211 157 40 210Z" fill="#091a27" opacity=".75"/>
+<path d="M50 115Q230 67 450 123L450 201Q235 147 50 194Z" fill="url(#page)" stroke="#d8c19b" stroke-width="5"/>
+<path d="M450 123Q670 65 854 113L854 194Q675 151 450 201Z" fill="#f4e4c4" stroke="#d8c19b" stroke-width="5"/>
+<path d="M450 123v78" stroke="#ab926e" stroke-width="6"/>
+<g stroke="#bba57f" stroke-width="3" opacity=".58"><path d="M100 136Q240 109 399 147M100 151Q240 124 399 162M100 167Q240 140 399 178M505 145Q655 110 802 135M505 161Q655 126 802 151M505 177Q655 142 802 167"/></g>
+<path d="M450 199q12 11 27 3" fill="none" stroke="#ad8554" stroke-width="3"/>
+</g>
+<path d="M1060 65v97m-38-66h76" stroke="#f6d8a0" stroke-width="11" stroke-linecap="round" opacity=".58"/>
+<rect width="1200" height="675" fill="none" stroke="#0a2334" stroke-width="12"/>
+</svg>
