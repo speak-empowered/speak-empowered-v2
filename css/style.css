@@ -229,6 +229,9 @@ img{max-width:100%;height:auto}
 .platform-package-featured .platform-package-button{background:#d9ad54;color:#101a27}
 .platform-package-featured .platform-package-button:hover{background:#fff;color:#101a27}
 .platform-package-flag{position:absolute;right:18px;top:-15px;margin:0;background:#d9ad54;color:#101a27;padding:7px 13px;border-radius:3px;font-size:.68rem;letter-spacing:.11em;font-weight:900}
+.platform-package-featured .platform-package-note{color:#c8d6e4;font-size:.79rem;line-height:1.5;margin:-14px 0 24px}
+.platform-package-featured ul a{color:#edca71;text-decoration:underline;text-underline-offset:2px}
+.platform-package-featured ul a:hover{color:#fff}
 .platform-package-caption{margin:24px 0 0;text-align:center;color:#6b7784;font-size:.9rem}
 /* Time-limited platform pre-launch rates: visible regular price + discounted rate */
 .platform-package-price,.platform-detail-price{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 14px}
